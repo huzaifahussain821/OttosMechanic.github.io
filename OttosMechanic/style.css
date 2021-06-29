@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* navbar change on scroll */
+  .navbar-fixed-top.scrolled {
+    background-color: red !important;
+    transition: background-color 200ms linear;
+    z-index: 1;
+    color: black;
+  }
+
+  b:hover{
+    color: rgb(120, 245, 120); text-decoration: underline;
+  }
